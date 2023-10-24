@@ -14,7 +14,13 @@ const Hero = () => {
         height: `${dynamicHeight}px`,
       }}
     >
-      <div className="absolute inset-0 bg-gradient-to-r from-[#0D0A0B] via-[rgba(13, 10, 11, 0.27)] z-0"></div>
+      <div
+        className="absolute inset-0"
+        style={{
+          background:
+            'linear-gradient(90deg, #0D0A0B 0%, rgba(13, 10, 11, 0.27) 127.55%)',
+        }}
+      ></div>
 
       <div className="pt-[50px] lg:pt-[100px] h-full flex items-center">
         <div className="h-full justify-evenly flex flex-col lg:h-auto lg:w-full lg:flex-row lg:justify-between">
