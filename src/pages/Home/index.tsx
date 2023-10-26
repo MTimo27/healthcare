@@ -1,3 +1,4 @@
+import Team from './Team';
 import Header from '../../components/Header';
 import About from './About';
 import Hero from './Hero';
@@ -10,6 +11,7 @@ const Home = () => {
       <Hero />
       <About />
       <Services />
+      <Team />
     </>
   );
 };
