@@ -7,7 +7,7 @@ import aboutBg from '../../../assets/images/home/aboutBg.jpg';
 
 const About = () => {
   return (
-    <div className="mt-[-50px] lg:mt-[-100px] px-10 lg:px-0 py-36 lg:py-0 lg:flex flex-row justify-between">
+    <div className="mt-[-50px] lg:mt-[-100px] px-10 lg:px-0 py-36 lg:pt-0 lg:pb-36 lg:flex flex-row justify-between">
       <div className="flex flex-col justify-center items-center lg:items-start lg:px-36">
         <div className="flex flex-col gap-1">
           <h2 className="text-4xl lg:text-6xl font-medium">
