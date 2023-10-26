@@ -1,3 +1,5 @@
+import { v4 as uuidv4 } from 'uuid';
+
 import useToggle from '../../hooks/useToggle';
 import linksData from '../../data/navLinks.json';
 import SideNavigation from '../SideNavigation';
@@ -52,9 +54,9 @@ const MainNavigation = () => {
         </div>
 
         <div className="hidden lg:flex lg:gap-10 lg:justify-end">
-          {linksData.links.map((link, index) => (
+          {linksData.links.map((link) => (
             <a
-              key={index}
+              key={uuidv4()}
               href={link.href}
               className="text-xl font-normal text-primary-foreground border-2 border-transparent hover:border-accent hover:rounded-sm p-2"
             >
