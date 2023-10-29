@@ -40,7 +40,7 @@ const About = () => {
         <Button size={'lg'}>
           <a
             className="leading-none"
-            href=""
+            href="#contact"
           >
             Contact us
           </a>

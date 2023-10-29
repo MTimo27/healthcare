@@ -71,6 +71,7 @@ const SideNavigation: React.FC<SideNavigationProps> = ({
                 <a
                   key={index}
                   href={link.href}
+                  onClick={toggleSideNavigation}
                   className="-mx-3 block rounded-lg px-3 py-1 text-xl font-normal leading-7 text-primary-foreground"
                 >
                   {link.text}

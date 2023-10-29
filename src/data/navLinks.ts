@@ -2,23 +2,23 @@ export default {
   links: [
     {
       text: 'Home',
-      href: '#',
+      href: '#home',
     },
     {
       text: 'About',
-      href: '#',
+      href: '#about',
     },
     {
       text: 'Services',
-      href: '#',
+      href: '#services',
     },
     {
-      text: 'Book',
-      href: '#',
+      text: 'Team',
+      href: '#team',
     },
     {
       text: 'Contact',
-      href: '#',
+      href: '#contact',
     },
   ],
 };
