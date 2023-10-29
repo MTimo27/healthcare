@@ -1,7 +1,7 @@
 import { v4 as uuidv4 } from 'uuid';
 
 import useToggle from '../../hooks/useToggle';
-import linksData from '../../data/navLinks.json';
+import linksData from '../../data/navLinks';
 import SideNavigation from '../SideNavigation';
 import logoImage from '../../assets/images/shared/logo.png';
 

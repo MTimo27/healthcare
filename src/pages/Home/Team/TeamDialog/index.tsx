@@ -3,7 +3,7 @@ import {
   DialogContent,
   DialogFooter,
   DialogTitle,
-} from '../Dialog';
+} from '../../../../components/ui/Dialog';
 
 interface TeamDialogProps {
   open: boolean;

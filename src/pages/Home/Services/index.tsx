@@ -1,6 +1,6 @@
 import { v4 as uuidv4 } from 'uuid';
 
-import ServiceCard from '@/components/ui/ServiceCard';
+import ServiceCard from '@/pages/Home/Services/ServiceCard';
 import serviceCards from '@/data/serviceCards';
 
 const Services = () => {

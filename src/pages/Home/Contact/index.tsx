@@ -1,4 +1,4 @@
-import ContactIcon from '@/components/ui/ContactIcon';
+import ContactIcon from '@/pages/Home/Contact/ContactIcon';
 import contactBg from '../../../assets/images/contact/contactBg.jpg';
 import contactIcons from '@/data/contactIcons';
 

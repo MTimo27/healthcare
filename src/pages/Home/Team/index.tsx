@@ -1,6 +1,6 @@
 import { v4 as uuidv4 } from 'uuid';
 
-import TeamCard from '@/components/ui/TeamCard';
+import TeamCard from '@/pages/Home/Team/TeamCard';
 import teamData from '@/data/teamCard';
 
 function Team() {

@@ -1,6 +1,6 @@
 import { v4 as uuidv4 } from 'uuid';
 
-import IconSpecification from '@/components/ui/IconSpecification';
+import IconSpecification from '@/pages/Home/About/IconSpecification';
 import iconSpecificationData from '../../../data/aboutIconSpecification';
 import { Button } from '@/components/ui/Button';
 import aboutBg from '../../../assets/images/home/aboutBg.jpg';

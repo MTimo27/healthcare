@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import useIsMobile from '@/hooks/useIsMobile';
-import dotsIcon from '../../../assets/icons/green/dots.png';
+import dotsIcon from '../../../../assets/icons/green/dots.png';
 import TeamDialog from '../TeamDialog';
 interface TeamCardProps {
   src: string;
