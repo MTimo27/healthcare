@@ -32,6 +32,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
         className="w-full h-[154px] lg:min-w-[373px] lg:h-[200px] rounded-sm border-2 border-secondary relative overflow-hidden bg-cover bg-no-repeat bg-center group cursor-pointer lg:p-6"
         style={{
           backgroundImage: `url(${srcBg})`,
+          WebkitTapHighlightColor: 'transparent',
         }}
         onClick={handleOpenModal}
       >
