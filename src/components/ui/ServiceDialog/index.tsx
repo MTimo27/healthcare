@@ -28,7 +28,7 @@ const ServiceDialog: React.FC<ServiceDialogProps> = ({
       onOpenChange={setModalOpen}
       modal={true}
     >
-      <DialogContent className="max-w-[80%] p-0 gap-0 rounded-xl outline-offset-0 border-4 border-accent">
+      <DialogContent className="max-w-[90%] p-0 gap-0 rounded-xl outline-offset-0 border-4 border-accent">
         <div
           className="w-full h-[183px] relative bg-cover bg-no-repeat bg-center rounded-t-lg"
           style={{
