@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import useIsMobile from '@/hooks/useIsMobile';
-import dotsIcon from '../../../../assets/icons/green/dots.png';
+import infoIcon from '../../../../assets/icons/white/info.png';
 import TeamDialog from '../TeamDialog';
 interface TeamCardProps {
   src: string;
@@ -34,7 +34,7 @@ const TeamCard: React.FC<TeamCardProps> = ({
         style={{ WebkitTapHighlightColor: 'transparent' }}
       >
         <div
-          className="w-[264px] h-[183px] lg:min-w-[472px] lg:h-[373px] p-6 rounded-sm lg:rounded-none border-2 lg:border-none border-secondary relative overflow-hidden bg-cover bg-no-repeat bg-center"
+          className="w-[264px] min-h-[183px] lg:min-w-[472px] lg:h-[373px] p-6 rounded-sm lg:rounded-none border-2 lg:border-none border-secondary relative overflow-hidden bg-cover bg-no-repeat bg-center"
           style={{
             backgroundImage: `url(${src})`,
           }}
@@ -46,15 +46,20 @@ const TeamCard: React.FC<TeamCardProps> = ({
                 'linear-gradient(0deg, rgba(13, 10, 11, 0.65) 0%, rgba(13, 10, 11, 0.00) 100%)',
             }}
           >
-            <div className="h-full flex items-end justify-between lg:hidden">
+            <div className="h-full flex flex-col justify-end lg:hidden">
               <h2 className="text-2xl font-light text-primary-foreground leading-none">
                 {title}
               </h2>
-              <img
-                className="w-7 h-7"
-                src={dotsIcon}
-                alt="Icon"
-              />
+              <div className="flex flex-row items-center gap-2 mt-2">
+                <p className="font-light text-primary-foreground leading-none">
+                  Tap to see more
+                </p>
+                <img
+                  className="w-4 h-4"
+                  src={infoIcon}
+                  alt="Icon"
+                />
+              </div>
             </div>
           </div>
         </div>
