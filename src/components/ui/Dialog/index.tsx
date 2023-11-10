@@ -1,6 +1,6 @@
 import * as React from 'react';
 import * as DialogPrimitive from '@radix-ui/react-dialog';
-import closedIcon from '../../../assets/icons/green/close.png';
+import closedIcon from '../../../assets/icons/black/close.png';
 
 import { cn } from '@/lib/utils';
 
